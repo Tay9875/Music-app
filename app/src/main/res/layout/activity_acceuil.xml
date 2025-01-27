@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".acceuil">
+
+<!--
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_recommendation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/title_recommendation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginTop="16dp"
+        tools:listitem="@layout/item_album_square" >
+
+        <LinearLayout
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#333333"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bibliothèque"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_get" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rechercher"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_search" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accueil"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/icon_home"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/unnamed"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/title_recommendation"
+        android:layout_width="185dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginBottom="116dp"
+        android:text="Recommandation"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/icon_notification"
+        app:layout_constraintMarginStart="16dp"
+        app:layout_constraintMarginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/best_hits_layout"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <TextView
+        android:id="@+id/recemment"
+        android:layout_width="192dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="232dp"
+        android:text="Récemment écouté"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintMarginStart="16dp"
+        app:layout_constraintMarginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/icons_layout"
+        android:layout_width="444dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="411dp"
+        android:layout_marginTop="292dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintMarginEnd="16dp"
+        app:layout_constraintMarginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_recommendation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/title_recommendation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginTop="16dp"
+        tools:listitem="@layout/item_album_square" >
+
+        <TextView
+            android:id="@+id/title_best_hits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meilleur hit 2024"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintMarginStart="16dp"
+            app:layout_constraintMarginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recycler_recently_played" />
+
+        <LinearLayout
+            android:id="@+id/best_hits_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/title_best_hits"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintMarginTop="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/album1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/unnamed"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+              android:id="@+id/album2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/unnamed"
+            android:scaleType="centerCrop" />
+        </LinearLayout>
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/icon_orientation_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:srcCompat="@android:drawable/ic_menu_recent_history"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <ImageView
+        android:id="@+id/icon_settings"
+        android:layout_width="73dp"
+        android:layout_height="38dp"
+        android:padding="8dp"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <ImageView
+        android:id="@+id/icon_notification"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:padding="8dp"
+        app:srcCompat="@android:drawable/ic_popup_reminder"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="219dp" />.-->
+</androidx.constraintlayout.widget.ConstraintLayout>
