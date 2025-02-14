@@ -13,13 +13,16 @@
         android:layout_height="wrap_content"
         android:text="Titre de la musique"
         android:textSize="18sp"
-        android:layout_marginBottom="8dp" />
-
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"/>
     <!-- Bouton pour jouer la musique -->
     <Button
         android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lecture" />
+        android:text="Lecture"
+        android:backgroundTint="#3371E4"
+        android:rotationX="6"
+        android:textColor="#FFFFFF"/>
 
 </LinearLayout>

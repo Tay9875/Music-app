@@ -59,7 +59,7 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore-ktx")
 
     // Dépendance ExoPlayer
-    implementation("com.google.android.exoplayer:exoplayer:2.15.1")
+    implementation("com.google.android.exoplayer:exoplayer:2.18.2")
 
     // Tests
     testImplementation(libs.junit)
