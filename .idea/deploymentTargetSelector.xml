@@ -4,16 +4,19 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-01-27T11:04:46.545475100Z">
+        <DropdownSelection timestamp="2025-02-14T12:13:38.835158500Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=R58M80P4BFT" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\djobe\.android\avd\Pixel_Fold_API_35.avd" />
             </handle>
           </Target>
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="connexion">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="inscription">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
