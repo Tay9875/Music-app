@@ -61,6 +61,7 @@ dependencies {
     // Dépendance ExoPlayer
     implementation("com.google.android.exoplayer:exoplayer:2.18.2")
 
+
     // Tests
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

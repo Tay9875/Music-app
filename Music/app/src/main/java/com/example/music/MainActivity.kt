@@ -23,9 +23,11 @@ import com.google.android.exoplayer2.PlaybackException
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.Source
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
+
 
 class MainActivity : ComponentActivity() {
 
@@ -37,83 +39,56 @@ class MainActivity : ComponentActivity() {
     private lateinit var searchButton: Button
     private lateinit var errorTextView: TextView
 
-    // Déclarez firestore comme variable de classe pour y accéder dans toutes les fonctions
     private lateinit var firestore: FirebaseFirestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // Assurez-vous que le fichier activity_main.xml est correctement configuré
         setContentView(R.layout.activity_main)
 
-        // Initialiser Firebase Analytics (si nécessaire)
         val firebaseAnalytics: FirebaseAnalytics = Firebase.analytics
 
-        // Initialiser Firestore
         firestore = Firebase.firestore
 
-        // Récupérer les références des vues depuis le layout
         searchEditText = findViewById(R.id.searchEditText)
         searchButton = findViewById(R.id.searchButton)
         musicRecyclerView = findViewById(R.id.musicRecyclerView)
         errorTextView = findViewById(R.id.errorTextView)
 
-        // Configurer le RecyclerView avec un LinearLayoutManager
         musicRecyclerView.layoutManager = LinearLayoutManager(this)
 
-        // Vérifier les permissions
         checkPermissions()
 
-        // Configurer le bouton de recherche
         searchButton.setOnClickListener {
             val query = searchEditText.text.toString()
             if (query.isNotBlank()) {
                 searchMusic(query)
             } else {
-                // Afficher un message si le champ de recherche est vide
                 errorTextView.visibility = View.VISIBLE
                 errorTextView.text = "Veuillez saisir un titre de musique."
                 musicRecyclerView.visibility = View.GONE
             }
         }
+
+        // Désactiver le cache Firestore pour forcer le rafraîchissement des données
+        firestore.clearPersistence()
+
+        // Activer les logs Firestore
+        FirebaseFirestore.setLoggingEnabled(true)
     }
 
     private fun checkPermissions() {
         val permissions = mutableListOf<String>()
 
-        if (ContextCompat.checkSelfPermission(
-                this,
-                Manifest.permission.INTERNET
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
             permissions.add(Manifest.permission.INTERNET)
         }
 
-        // Pour les versions Android 6.0 et supérieures, READ_EXTERNAL_STORAGE n'est plus nécessaire pour accéder à Internet
-        // Supprimez la vérification si vous n'accédez pas au stockage externe
-        /*
-        if (ContextCompat.checkSelfPermission(
-                this,
-                Manifest.permission.READ_EXTERNAL_STORAGE
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
-            permissions.add(Manifest.permission.READ_EXTERNAL_STORAGE)
-        }
-        */
-
         if (permissions.isNotEmpty()) {
-            ActivityCompat.requestPermissions(
-                this,
-                permissions.toTypedArray(),
-                PERMISSION_REQUEST_CODE
-            )
+            ActivityCompat.requestPermissions(this, permissions.toTypedArray(), PERMISSION_REQUEST_CODE)
         }
     }
 
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<String>,
-        grantResults: IntArray
-    ) {
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == PERMISSION_REQUEST_CODE) {
             for (i in permissions.indices) {
@@ -130,33 +105,34 @@ class MainActivity : ComponentActivity() {
 
     private fun searchMusic(query: String) {
         Log.d(TAG, "Recherche de musique avec le titre : $query")
+
         firestore.collection("music")
-            .get()
-            .addOnSuccessListener { documents ->
-                val musicList = documents.mapNotNull { doc ->
-                    doc.toObject<Music>()
-                }.filter { music ->
-                    music.title.contains(query, ignoreCase = true)
+            .addSnapshotListener { documents, error ->
+                if (error != null) {
+                    errorTextView.visibility = View.VISIBLE
+                    errorTextView.text = "Erreur lors de la récupération des musiques : ${error.message}"
+                    Log.e(TAG, "Erreur Firestore : ", error)
+                    return@addSnapshotListener
                 }
+
+                val musicList = documents?.mapNotNull { doc ->
+                    Log.d(TAG, "Document Firestore récupéré : ${doc.id} -> ${doc.data}")
+                    doc.toObject<Music>()
+                }?.filter { music ->
+                    music.title.contains(query, ignoreCase = true)
+                } ?: emptyList()
 
                 if (musicList.isNotEmpty()) {
                     musicRecyclerView.adapter = MusicAdapter(musicList)
                     musicRecyclerView.visibility = View.VISIBLE
                     errorTextView.visibility = View.GONE
                 } else {
-                    // Aucun résultat trouvé
                     musicRecyclerView.visibility = View.GONE
                     errorTextView.visibility = View.VISIBLE
                     errorTextView.text = "Aucune musique trouvée pour \"$query\""
                 }
+
                 Log.d(TAG, "Nombre de musiques trouvées : ${musicList.size}")
-            }
-            .addOnFailureListener { exception ->
-                // Gérer l'erreur
-                musicRecyclerView.visibility = View.GONE
-                errorTextView.visibility = View.VISIBLE
-                errorTextView.text = "Erreur lors de la recherche : ${exception.message}"
-                Log.e(TAG, "Erreur lors de la recherche", exception)
             }
     }
 
@@ -192,25 +168,17 @@ class MainActivity : ComponentActivity() {
                 titleTextView.text = music.title
 
                 playButton.setOnClickListener {
-                    // Libérer le précédent lecteur
                     exoPlayer?.release()
                     exoPlayer = null
 
                     try {
-                        // Afficher l'URL pour débogage
-                        Log.d("MusicAdapter", "URL de la musique : ${music.url}")
+                        Log.d(TAG, "Lecture de la musique : ${music.url}")
 
-                        // Vérifier si l'URL est valide
                         if (music.url.isBlank()) {
-                            Toast.makeText(
-                                itemView.context,
-                                "URL de la musique non valide",
-                                Toast.LENGTH_LONG
-                            ).show()
+                            Toast.makeText(itemView.context, "URL de la musique non valide", Toast.LENGTH_LONG).show()
                             return@setOnClickListener
                         }
 
-                        // Initialiser ExoPlayer et lire la musique depuis l'URL
                         exoPlayer = ExoPlayer.Builder(itemView.context).build().apply {
                             val mediaItem = MediaItem.fromUri(music.url)
                             setMediaItem(mediaItem)
@@ -219,38 +187,27 @@ class MainActivity : ComponentActivity() {
 
                             addListener(object : Player.Listener {
                                 override fun onPlayerError(error: PlaybackException) {
-                                    Log.e("MusicAdapter", "Erreur de lecture : ${error.errorCodeName}")
-                                    Toast.makeText(
-                                        itemView.context,
-                                        "Erreur lors de la lecture : ${error.localizedMessage}",
-                                        Toast.LENGTH_LONG
-                                    ).show()
+                                    Log.e(TAG, "Erreur de lecture : ${error.errorCodeName}")
+                                    Toast.makeText(itemView.context, "Erreur lors de la lecture : ${error.localizedMessage}", Toast.LENGTH_LONG).show()
                                 }
 
                                 override fun onPlaybackStateChanged(state: Int) {
                                     when (state) {
-                                        Player.STATE_BUFFERING -> Log.d("MusicAdapter", "Mise en mémoire tampon...")
-                                        Player.STATE_READY -> Log.d("MusicAdapter", "Lecture prête")
+                                        Player.STATE_BUFFERING -> Log.d(TAG, "Mise en mémoire tampon...")
+                                        Player.STATE_READY -> Log.d(TAG, "Lecture prête")
                                         Player.STATE_ENDED -> {
-                                            Log.d("MusicAdapter", "Lecture terminée")
+                                            Log.d(TAG, "Lecture terminée")
                                             exoPlayer?.release()
                                             exoPlayer = null
                                         }
-                                        Player.STATE_IDLE -> Log.d("MusicAdapter", "Lecteur à l'état IDLE")
+                                        Player.STATE_IDLE -> Log.d(TAG, "Lecteur à l'état IDLE")
                                     }
                                 }
                             })
                         }
-
-                        Log.d("MusicAdapter", "Lecture de la musique : ${music.url}")
-
                     } catch (e: Exception) {
-                        Log.e("MusicAdapter", "Erreur lors de l'initialisation du lecteur : ${e.message}")
-                        Toast.makeText(
-                            itemView.context,
-                            "Erreur lors de l'initialisation du lecteur : ${e.message}",
-                            Toast.LENGTH_LONG
-                        ).show()
+                        Log.e(TAG, "Erreur lors de l'initialisation du lecteur : ${e.message}")
+                        Toast.makeText(itemView.context, "Erreur lors de l'initialisation du lecteur : ${e.message}", Toast.LENGTH_LONG).show()
                     }
                 }
             }
@@ -258,18 +215,6 @@ class MainActivity : ComponentActivity() {
             fun releasePlayer() {
                 exoPlayer?.release()
                 exoPlayer = null
-            }
-        }
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        // Libérer ExoPlayer pour chaque ViewHolder
-        val adapter = musicRecyclerView.adapter as? MusicAdapter
-        adapter?.let {
-            for (i in 0 until it.itemCount) {
-                val holder = musicRecyclerView.findViewHolderForAdapterPosition(i) as? MusicAdapter.MusicViewHolder
-                holder?.releasePlayer()
             }
         }
     }

@@ -6,6 +6,16 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+
+
+
+    <ImageView
+        android:id="@+id/musicImageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="Image de la musique"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="16dp" />
     <!-- Titre de la musique -->
     <TextView
         android:id="@+id/titleTextView"
