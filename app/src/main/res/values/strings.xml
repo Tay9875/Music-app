@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="inscription">Inscription</string>
+    <string name="connexion">Connexion</string>
+    <string name="main_text">Respirez le plaisir de la musique avec SONIQ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
+
