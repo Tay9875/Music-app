@@ -1,0 +1,1011 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:2:1-64:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Talyha\.gradle\caches\transforms-4\55cd32f63b8562bd29608ebbd7fe5124\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Talyha\.gradle\caches\transforms-4\c50fc2f147b11af7a7adfe4aea332883\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Talyha\.gradle\caches\transforms-4\87ae910bb1ff29dde2cc0db950c09d29\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Talyha\.gradle\caches\transforms-4\cd8d133a94c2115f7f178e74f1cfd519\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.navigation:navigation-common:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\f187a6c55be2cf1bd13eeec915a3fcac\transformed\navigation-common-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\60b1334a6dad505b7ee2f041dfa5f8cd\transformed\navigation-runtime-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\b5a3ea34f21823ba05b1e18891d52312\transformed\navigation-fragment-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\98e8afc3267852793cd9a09c2e882a1f\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\b83dbe278d97d7916aabd5909443aa3c\transformed\exoplayer-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\63e7e603bbd75eaf20738bac123175fc\transformed\exoplayer-ui-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Talyha\.gradle\caches\transforms-4\0c3093010078d44c021901a03755480f\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Talyha\.gradle\caches\transforms-4\87f5538fb36949985e004284e0c9d91a\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\eb28369c66e53fa55f4121f55f62f3f7\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\463df597b4b041a3a838b4c1fc4a28d5\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\e58200723a0348906206e7513f50ce75\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\4732c3bbd85e26b5408b3ad502474b62\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\ce88b662340be1140cdd88142302d542\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\f59beb296831c93f60b35dd5f3ada0af\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Talyha\.gradle\caches\transforms-4\7fddfc23a2369d2840e4fe7def743004\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\a1e3492994d9f27eff7a6d90b0a32baf\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\0f9c0b7766536dcad3ddfd4676b3f742\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\de9783c42bbaa7fd5c5e88f7663dfb4f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\611552f45af9280341fe99890b9f5fd4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\64923d294f4edb4a5502bb3847b99ff9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\079d97d56bbe28f6b1bf2d6ab0ef7248\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e5142296f829f1d52f412e8429d7e9c8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\f2f01f7231f4fb6af06653bbf2cd66c4\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\9954d12414884a1594de66e5f389ce77\transformed\exoplayer-dash-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\b42bac8d7c5d016c46be9b87f78b43d6\transformed\exoplayer-hls-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\e1f1b3f5af4aef87ec4054c25cc725db\transformed\exoplayer-rtsp-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\e09f816b8c8da5a10b6bb4974eeddc74\transformed\exoplayer-smoothstreaming-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\ab3df88755c89e03308dfa57e77e776b\transformed\exoplayer-core-2.18.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:extension-mediasession:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\3f610d98dfbb2df84806c04770eac126\transformed\extension-mediasession-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.4.3] C:\Users\Talyha\.gradle\caches\transforms-4\a78937ea67f27d0047ed2f27b252cf4b\transformed\media-1.4.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\8271f68d602860ce5bc4c60eb8fd531f\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d5288831a1a3a346caca30a252d928d4\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\c9ffc1d5987850d7823a5fb5b0a3e080\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\bd6f1b9fd1a4af397d4a8ad25aab7cef\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\ed2826b3957301da12da5ad92bc721e2\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d5117487477a0a2906776cf12248a27f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\Talyha\.gradle\caches\transforms-4\f11a05a1766a16060a2ecf83d2141a65\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Talyha\.gradle\caches\transforms-4\25ea3f2dd8db12c638b7da226aecdc9a\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Talyha\.gradle\caches\transforms-4\2bd355ec819a6842d6b95f39ba61b86c\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\5478e74fd6bf7ed7829462dcbe46b51f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\24d3d98726c57f2e467a0acd998781e9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\6b8801055dd4a83a8c79ebf8bd3e486d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c2e1358985d39e8fc5632e137e4f5474\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\41a3c5e646861980d47e1e876b9c6444\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\457ac72c83b85df787e5ec2acab570a1\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\aeb0edf071fd705a3aaeef3c6827ea9a\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\7150d5293b9cb64e23970659712e2543\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\5bf42dc8fa5f67b3f5b57230cefecc01\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Talyha\.gradle\caches\transforms-4\48e2864a3d91caa014c8eb5422934374\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\6530376c91a27cedf62be63a23ebc373\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Talyha\.gradle\caches\transforms-4\0f70dff127320e5df0dfdbef68bc92b9\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\ae98b314cafb33492f6a9d10c70db842\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c2761b9520b8d93dcbe3eebf1efd0853\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5b1e6541fd07fc7b3f5b158671f1bfa6\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\498fd76c01417375bb22ddb3e152c6ef\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4acd83232799a3a5a40fba3144e32547\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\1d717e0b16cce0e5b3aa4bf76bfffe6e\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\14f8c9941fe189d7b60faab8c5ff54bf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c95474f7e2a5eb44424520b6abf1ecc8\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\Talyha\.gradle\caches\transforms-4\e7618f50cb0dda13323cf76ee70fb975\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\145f8a6e5bb188268b672e8980557b3d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8f5d19d668ee07d4af5011f0a4496a73\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e5c331fb2a3e6878bfcda3eccb244da8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\05e9d41816a2dbb1eb6e9882f7032d4a\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3900dbbced5d057437e580fa2c2a55f2\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\f83839e8225d39ea83d3ff412fed9b70\transformed\exoplayer-datasource-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\61602c3e5dfbcc3b02e9564c65286a8d\transformed\exoplayer-database-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\bca4c2f4713605b226af2a1abe3c5dad\transformed\exoplayer-extractor-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\f1eb3da8d7620305a62f2fa6de3a289c\transformed\exoplayer-decoder-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\0e6a2abbae0b8912f2ad8d2b928f0b65\transformed\exoplayer-common-2.18.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d698675ec40940edc8d18748ccb54bf8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8184b314927194f15a3827d2f55c408a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e9dbc47bea8f418edac58573399d9dbc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\fd36c56bdbafc06593dbcb3cf74fbea8\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\98fbe9e8ce0b087bff4676d2ea7cd077\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\4059e87eb380f71ab6339c1b2752e32d\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\b3e2d76e272542ccb8ee1baa02540c67\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Talyha\.gradle\caches\transforms-4\d24ad3328e0ded59cc839ebd31309aca\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Talyha\.gradle\caches\transforms-4\bf56efa0e47ea0d9e0314e6bb5b8bb6c\transformed\grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\1ac1d72425ecd968373c4ac55d51ab4f\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\dac3c545652996bb7b7e3b4f88c801ae\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:7:5-62:19
+INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:7:5-62:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Talyha\.gradle\caches\transforms-4\55cd32f63b8562bd29608ebbd7fe5124\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Talyha\.gradle\caches\transforms-4\55cd32f63b8562bd29608ebbd7fe5124\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Talyha\.gradle\caches\transforms-4\c50fc2f147b11af7a7adfe4aea332883\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Talyha\.gradle\caches\transforms-4\c50fc2f147b11af7a7adfe4aea332883\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\eb28369c66e53fa55f4121f55f62f3f7\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\eb28369c66e53fa55f4121f55f62f3f7\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\463df597b4b041a3a838b4c1fc4a28d5\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\463df597b4b041a3a838b4c1fc4a28d5\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\e58200723a0348906206e7513f50ce75\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\e58200723a0348906206e7513f50ce75\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\4732c3bbd85e26b5408b3ad502474b62\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\4732c3bbd85e26b5408b3ad502474b62\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Talyha\.gradle\caches\transforms-4\7fddfc23a2369d2840e4fe7def743004\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Talyha\.gradle\caches\transforms-4\7fddfc23a2369d2840e4fe7def743004\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\a1e3492994d9f27eff7a6d90b0a32baf\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\a1e3492994d9f27eff7a6d90b0a32baf\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\bd6f1b9fd1a4af397d4a8ad25aab7cef\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\bd6f1b9fd1a4af397d4a8ad25aab7cef\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\498fd76c01417375bb22ddb3e152c6ef\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\498fd76c01417375bb22ddb3e152c6ef\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4acd83232799a3a5a40fba3144e32547\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4acd83232799a3a5a40fba3144e32547\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\1d717e0b16cce0e5b3aa4bf76bfffe6e\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\1d717e0b16cce0e5b3aa4bf76bfffe6e\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\14f8c9941fe189d7b60faab8c5ff54bf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\14f8c9941fe189d7b60faab8c5ff54bf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e5c331fb2a3e6878bfcda3eccb244da8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e5c331fb2a3e6878bfcda3eccb244da8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e9dbc47bea8f418edac58573399d9dbc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e9dbc47bea8f418edac58573399d9dbc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:16:9-29
+	android:icon
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:15:9-51
+	android:dataExtractionRules
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.example.myapplication.search
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:18:13-35
+activity#com.example.myapplication.playlist
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:20:9-22:40
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:21:13-37
+activity#com.example.myapplication.like
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:24:13-33
+activity#com.example.myapplication.lib
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:27:13-32
+activity#com.example.myapplication.MainActivity
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:29:9-37:20
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.example.myapplication.acceuil
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:38:9-40:40
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:39:13-36
+activity#com.example.myapplication.inscription
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:42:13-40
+activity#com.example.myapplication.connexion
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:44:9-46:40
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:45:13-38
+activity#com.example.myapplication.callback
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:47:9-61:20
+	android:exported
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:49:13-36
+	tools:ignore
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:48:13-37
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:callback+data:scheme:com.example.myapplication
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:51:13-60:29
+	android:label
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:51:28-58
+action#android.intent.action.VIEW
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:52:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:54:17-76
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:54:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:55:17-78
+	android:name
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:55:27-75
+data
+ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:57:17-59:66
+	android:host
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:58:21-44
+	android:scheme
+		ADDED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml:59:21-63
+uses-sdk
+INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Talyha\.gradle\caches\transforms-4\55cd32f63b8562bd29608ebbd7fe5124\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Talyha\.gradle\caches\transforms-4\55cd32f63b8562bd29608ebbd7fe5124\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Talyha\.gradle\caches\transforms-4\c50fc2f147b11af7a7adfe4aea332883\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Talyha\.gradle\caches\transforms-4\c50fc2f147b11af7a7adfe4aea332883\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Talyha\.gradle\caches\transforms-4\87ae910bb1ff29dde2cc0db950c09d29\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Talyha\.gradle\caches\transforms-4\87ae910bb1ff29dde2cc0db950c09d29\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Talyha\.gradle\caches\transforms-4\cd8d133a94c2115f7f178e74f1cfd519\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Talyha\.gradle\caches\transforms-4\cd8d133a94c2115f7f178e74f1cfd519\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.navigation:navigation-common:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\f187a6c55be2cf1bd13eeec915a3fcac\transformed\navigation-common-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\f187a6c55be2cf1bd13eeec915a3fcac\transformed\navigation-common-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\60b1334a6dad505b7ee2f041dfa5f8cd\transformed\navigation-runtime-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\60b1334a6dad505b7ee2f041dfa5f8cd\transformed\navigation-runtime-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\b5a3ea34f21823ba05b1e18891d52312\transformed\navigation-fragment-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.7] C:\Users\Talyha\.gradle\caches\transforms-4\b5a3ea34f21823ba05b1e18891d52312\transformed\navigation-fragment-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\98e8afc3267852793cd9a09c2e882a1f\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\98e8afc3267852793cd9a09c2e882a1f\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\b83dbe278d97d7916aabd5909443aa3c\transformed\exoplayer-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\b83dbe278d97d7916aabd5909443aa3c\transformed\exoplayer-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\63e7e603bbd75eaf20738bac123175fc\transformed\exoplayer-ui-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\63e7e603bbd75eaf20738bac123175fc\transformed\exoplayer-ui-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Talyha\.gradle\caches\transforms-4\0c3093010078d44c021901a03755480f\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Talyha\.gradle\caches\transforms-4\0c3093010078d44c021901a03755480f\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Talyha\.gradle\caches\transforms-4\87f5538fb36949985e004284e0c9d91a\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Talyha\.gradle\caches\transforms-4\87f5538fb36949985e004284e0c9d91a\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\eb28369c66e53fa55f4121f55f62f3f7\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\eb28369c66e53fa55f4121f55f62f3f7\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\463df597b4b041a3a838b4c1fc4a28d5\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\463df597b4b041a3a838b4c1fc4a28d5\transformed\firebase-analytics-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\e58200723a0348906206e7513f50ce75\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\e58200723a0348906206e7513f50ce75\transformed\play-services-measurement-sdk-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\4732c3bbd85e26b5408b3ad502474b62\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\4732c3bbd85e26b5408b3ad502474b62\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\ce88b662340be1140cdd88142302d542\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\ce88b662340be1140cdd88142302d542\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\f59beb296831c93f60b35dd5f3ada0af\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\f59beb296831c93f60b35dd5f3ada0af\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Talyha\.gradle\caches\transforms-4\7fddfc23a2369d2840e4fe7def743004\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Talyha\.gradle\caches\transforms-4\7fddfc23a2369d2840e4fe7def743004\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\a1e3492994d9f27eff7a6d90b0a32baf\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\a1e3492994d9f27eff7a6d90b0a32baf\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\0f9c0b7766536dcad3ddfd4676b3f742\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\0f9c0b7766536dcad3ddfd4676b3f742\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\de9783c42bbaa7fd5c5e88f7663dfb4f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\de9783c42bbaa7fd5c5e88f7663dfb4f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\611552f45af9280341fe99890b9f5fd4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\611552f45af9280341fe99890b9f5fd4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\64923d294f4edb4a5502bb3847b99ff9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\64923d294f4edb4a5502bb3847b99ff9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\079d97d56bbe28f6b1bf2d6ab0ef7248\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\079d97d56bbe28f6b1bf2d6ab0ef7248\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e5142296f829f1d52f412e8429d7e9c8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e5142296f829f1d52f412e8429d7e9c8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\f2f01f7231f4fb6af06653bbf2cd66c4\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\f2f01f7231f4fb6af06653bbf2cd66c4\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\9954d12414884a1594de66e5f389ce77\transformed\exoplayer-dash-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\9954d12414884a1594de66e5f389ce77\transformed\exoplayer-dash-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\b42bac8d7c5d016c46be9b87f78b43d6\transformed\exoplayer-hls-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\b42bac8d7c5d016c46be9b87f78b43d6\transformed\exoplayer-hls-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\e1f1b3f5af4aef87ec4054c25cc725db\transformed\exoplayer-rtsp-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\e1f1b3f5af4aef87ec4054c25cc725db\transformed\exoplayer-rtsp-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\e09f816b8c8da5a10b6bb4974eeddc74\transformed\exoplayer-smoothstreaming-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\e09f816b8c8da5a10b6bb4974eeddc74\transformed\exoplayer-smoothstreaming-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\ab3df88755c89e03308dfa57e77e776b\transformed\exoplayer-core-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\ab3df88755c89e03308dfa57e77e776b\transformed\exoplayer-core-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-mediasession:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\3f610d98dfbb2df84806c04770eac126\transformed\extension-mediasession-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-mediasession:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\3f610d98dfbb2df84806c04770eac126\transformed\extension-mediasession-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] C:\Users\Talyha\.gradle\caches\transforms-4\a78937ea67f27d0047ed2f27b252cf4b\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] C:\Users\Talyha\.gradle\caches\transforms-4\a78937ea67f27d0047ed2f27b252cf4b\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\8271f68d602860ce5bc4c60eb8fd531f\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\8271f68d602860ce5bc4c60eb8fd531f\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d5288831a1a3a346caca30a252d928d4\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d5288831a1a3a346caca30a252d928d4\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\c9ffc1d5987850d7823a5fb5b0a3e080\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\c9ffc1d5987850d7823a5fb5b0a3e080\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\bd6f1b9fd1a4af397d4a8ad25aab7cef\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Talyha\.gradle\caches\transforms-4\bd6f1b9fd1a4af397d4a8ad25aab7cef\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\ed2826b3957301da12da5ad92bc721e2\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\ed2826b3957301da12da5ad92bc721e2\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d5117487477a0a2906776cf12248a27f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d5117487477a0a2906776cf12248a27f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\Talyha\.gradle\caches\transforms-4\f11a05a1766a16060a2ecf83d2141a65\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\Talyha\.gradle\caches\transforms-4\f11a05a1766a16060a2ecf83d2141a65\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Talyha\.gradle\caches\transforms-4\25ea3f2dd8db12c638b7da226aecdc9a\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Talyha\.gradle\caches\transforms-4\25ea3f2dd8db12c638b7da226aecdc9a\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Talyha\.gradle\caches\transforms-4\2bd355ec819a6842d6b95f39ba61b86c\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Talyha\.gradle\caches\transforms-4\2bd355ec819a6842d6b95f39ba61b86c\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\5478e74fd6bf7ed7829462dcbe46b51f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\5478e74fd6bf7ed7829462dcbe46b51f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\24d3d98726c57f2e467a0acd998781e9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\24d3d98726c57f2e467a0acd998781e9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\6b8801055dd4a83a8c79ebf8bd3e486d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\6b8801055dd4a83a8c79ebf8bd3e486d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c2e1358985d39e8fc5632e137e4f5474\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c2e1358985d39e8fc5632e137e4f5474\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\41a3c5e646861980d47e1e876b9c6444\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\41a3c5e646861980d47e1e876b9c6444\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\457ac72c83b85df787e5ec2acab570a1\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\457ac72c83b85df787e5ec2acab570a1\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\aeb0edf071fd705a3aaeef3c6827ea9a\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\aeb0edf071fd705a3aaeef3c6827ea9a\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\7150d5293b9cb64e23970659712e2543\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\7150d5293b9cb64e23970659712e2543\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\5bf42dc8fa5f67b3f5b57230cefecc01\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\5bf42dc8fa5f67b3f5b57230cefecc01\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Talyha\.gradle\caches\transforms-4\48e2864a3d91caa014c8eb5422934374\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Talyha\.gradle\caches\transforms-4\48e2864a3d91caa014c8eb5422934374\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\6530376c91a27cedf62be63a23ebc373\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\6530376c91a27cedf62be63a23ebc373\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Talyha\.gradle\caches\transforms-4\0f70dff127320e5df0dfdbef68bc92b9\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Talyha\.gradle\caches\transforms-4\0f70dff127320e5df0dfdbef68bc92b9\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\ae98b314cafb33492f6a9d10c70db842\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\ae98b314cafb33492f6a9d10c70db842\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c2761b9520b8d93dcbe3eebf1efd0853\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c2761b9520b8d93dcbe3eebf1efd0853\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5b1e6541fd07fc7b3f5b158671f1bfa6\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5b1e6541fd07fc7b3f5b158671f1bfa6\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\498fd76c01417375bb22ddb3e152c6ef\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\498fd76c01417375bb22ddb3e152c6ef\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4acd83232799a3a5a40fba3144e32547\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4acd83232799a3a5a40fba3144e32547\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\1d717e0b16cce0e5b3aa4bf76bfffe6e\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\1d717e0b16cce0e5b3aa4bf76bfffe6e\transformed\play-services-measurement-base-22.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\14f8c9941fe189d7b60faab8c5ff54bf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\14f8c9941fe189d7b60faab8c5ff54bf\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c95474f7e2a5eb44424520b6abf1ecc8\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\c95474f7e2a5eb44424520b6abf1ecc8\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\Talyha\.gradle\caches\transforms-4\e7618f50cb0dda13323cf76ee70fb975\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\Talyha\.gradle\caches\transforms-4\e7618f50cb0dda13323cf76ee70fb975\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\145f8a6e5bb188268b672e8980557b3d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\145f8a6e5bb188268b672e8980557b3d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8f5d19d668ee07d4af5011f0a4496a73\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8f5d19d668ee07d4af5011f0a4496a73\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e5c331fb2a3e6878bfcda3eccb244da8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e5c331fb2a3e6878bfcda3eccb244da8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\05e9d41816a2dbb1eb6e9882f7032d4a\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\05e9d41816a2dbb1eb6e9882f7032d4a\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3900dbbced5d057437e580fa2c2a55f2\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3900dbbced5d057437e580fa2c2a55f2\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\f83839e8225d39ea83d3ff412fed9b70\transformed\exoplayer-datasource-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\f83839e8225d39ea83d3ff412fed9b70\transformed\exoplayer-datasource-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\61602c3e5dfbcc3b02e9564c65286a8d\transformed\exoplayer-database-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\61602c3e5dfbcc3b02e9564c65286a8d\transformed\exoplayer-database-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\bca4c2f4713605b226af2a1abe3c5dad\transformed\exoplayer-extractor-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\bca4c2f4713605b226af2a1abe3c5dad\transformed\exoplayer-extractor-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\f1eb3da8d7620305a62f2fa6de3a289c\transformed\exoplayer-decoder-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\f1eb3da8d7620305a62f2fa6de3a289c\transformed\exoplayer-decoder-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\0e6a2abbae0b8912f2ad8d2b928f0b65\transformed\exoplayer-common-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\0e6a2abbae0b8912f2ad8d2b928f0b65\transformed\exoplayer-common-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d698675ec40940edc8d18748ccb54bf8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\d698675ec40940edc8d18748ccb54bf8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8184b314927194f15a3827d2f55c408a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8184b314927194f15a3827d2f55c408a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e9dbc47bea8f418edac58573399d9dbc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e9dbc47bea8f418edac58573399d9dbc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\fd36c56bdbafc06593dbcb3cf74fbea8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\fd36c56bdbafc06593dbcb3cf74fbea8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\98fbe9e8ce0b087bff4676d2ea7cd077\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\98fbe9e8ce0b087bff4676d2ea7cd077\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\4059e87eb380f71ab6339c1b2752e32d\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\4059e87eb380f71ab6339c1b2752e32d\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\b3e2d76e272542ccb8ee1baa02540c67\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\b3e2d76e272542ccb8ee1baa02540c67\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Talyha\.gradle\caches\transforms-4\d24ad3328e0ded59cc839ebd31309aca\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Talyha\.gradle\caches\transforms-4\d24ad3328e0ded59cc839ebd31309aca\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Talyha\.gradle\caches\transforms-4\bf56efa0e47ea0d9e0314e6bb5b8bb6c\transformed\grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Talyha\.gradle\caches\transforms-4\bf56efa0e47ea0d9e0314e6bb5b8bb6c\transformed\grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\1ac1d72425ecd968373c4ac55d51ab4f\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\1ac1d72425ecd968373c4ac55d51ab4f\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\dac3c545652996bb7b7e3b4f88c801ae\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\dac3c545652996bb7b7e3b4f88c801ae\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Talyha\AndroidStudioProjects\Music-app\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\ab3df88755c89e03308dfa57e77e776b\transformed\exoplayer-core-2.18.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\ab3df88755c89e03308dfa57e77e776b\transformed\exoplayer-core-2.18.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\0e6a2abbae0b8912f2ad8d2b928f0b65\transformed\exoplayer-common-2.18.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Talyha\.gradle\caches\transforms-4\0e6a2abbae0b8912f2ad8d2b928f0b65\transformed\exoplayer-common-2.18.1\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Talyha\.gradle\caches\transforms-4\bf56efa0e47ea0d9e0314e6bb5b8bb6c\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Talyha\.gradle\caches\transforms-4\bf56efa0e47ea0d9e0314e6bb5b8bb6c\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Talyha\.gradle\caches\transforms-4\e4b556b09e256d4ad34730d96f0aeae8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\3af19bfc0e5f16bacd79f6180feb6edb\transformed\firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\5a39a8098974ab43c8c79db473d8a934\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Talyha\.gradle\caches\transforms-4\13e3010b7ac6b55ab4286f44077a930e\transformed\firebase-storage-21.0.1\AndroidManifest.xml:34:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4acd83232799a3a5a40fba3144e32547\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4acd83232799a3a5a40fba3144e32547\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\c1209fc538d4da16f30bc38e4bdbfa7d\transformed\play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+property#android.adservices.AD_SERVICES_CONFIG
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\bbc14159750c18ab216723a08b6a947e\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\b4866f1d68e760fded50c276b5a77ae0\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\de453d738ae0be2f1f416ec9b2fad969\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\8a6b276f3be4277e54e02ce4904ea7c3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4d5d74e073f8ed96c72347807c8353ae\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\dee1def23c791d0622d5d31afabeb4e3\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Talyha\.gradle\caches\transforms-4\a92b44c0ec4c64d2f3c1fab91e589ac4\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Talyha\.gradle\caches\transforms-4\c8e8d388e572f33b3ad31466b2af155a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Talyha\.gradle\caches\transforms-4\41272bf63ee0f868130f54137d8df41b\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Talyha\.gradle\caches\transforms-4\45166c7a02d216756a0fd08ab8e4fde7\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e5c331fb2a3e6878bfcda3eccb244da8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Talyha\.gradle\caches\transforms-4\e5c331fb2a3e6878bfcda3eccb244da8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Talyha\.gradle\caches\transforms-4\99a82ffab6a0fc8566cb296533ab986f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Talyha\.gradle\caches\transforms-4\86db31707c1ec4221d2b485a4b78003b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Talyha\.gradle\caches\transforms-4\3fdffdbe2d1d3c03152730cecb4490ba\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Talyha\.gradle\caches\transforms-4\4c6542fbbc82ff476d56bcfe7b687a65\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Talyha\.gradle\caches\transforms-4\97c3dcf5a12369f2e33b5c9fc3dae5fb\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Talyha\.gradle\caches\transforms-4\b2228e89905c85253d1b43e12ec0613c\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Talyha\.gradle\caches\transforms-4\36b58b764d03b96475262eebce92b116\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Talyha\.gradle\caches\transforms-4\b4978f2dab147650d663d81d0fa166de\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Talyha\.gradle\caches\transforms-4\f547c51181d0c1f168ec638f0ed64cbe\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\Talyha\.gradle\caches\transforms-4\7d28c93d56ec29abb7882c4a987f54cc\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
