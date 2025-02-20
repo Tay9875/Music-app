@@ -39,6 +39,7 @@ public class acceuil extends AppCompatActivity {
     private String currentUrl;
     private boolean isPlaying = false;
     private ImageButton btnPlayPause;
+    private ImageButton hide;
     private SeekBar seekBar;
     private Handler handler;
     private Runnable runnable;
@@ -52,7 +53,6 @@ public class acceuil extends AppCompatActivity {
         Intent old_intent = getIntent();
         String getName = old_intent.getStringExtra("name");
         String getId = old_intent.getStringExtra("id");
-        Toast.makeText(acceuil.this, getId, Toast.LENGTH_SHORT).show();
 
         popContainer = findViewById(R.id.linearPop);
         rnbContainer = findViewById(R.id.linearRnb);
@@ -70,6 +70,7 @@ public class acceuil extends AppCompatActivity {
         getSongs("electronic",electroContainer);
 
         // Initialiser le bouton play/pause
+        hide = findViewById(R.id.hideLayout);
         btnPlayPause = findViewById(R.id.btn_play_pause);
         btnPlayPause.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -196,7 +197,7 @@ public class acceuil extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(acceuil.this, "Card clicked: " + musique, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(acceuil.this, "Card clicked: " + musique, Toast.LENGTH_SHORT).show();
                 LinearLayout mainController = findViewById(R.id.songController);
 
                 TextView infoView = mainController.findViewById(R.id.songTitle);
@@ -207,6 +208,20 @@ public class acceuil extends AppCompatActivity {
                 mainController.setVisibility(View.VISIBLE);
                 controller.setVisibility(View.VISIBLE);
                 infoView.setVisibility(View.VISIBLE);
+                hide.setVisibility(View.VISIBLE);
+
+                hide.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mainController.setVisibility(View.INVISIBLE);
+                        controller.setVisibility(View.INVISIBLE);
+                        infoView.setVisibility(View.INVISIBLE);
+                        hide.setVisibility(View.INVISIBLE);
+                        btnPlayPause.setVisibility(View.INVISIBLE);
+                        seekBar.setVisibility(View.INVISIBLE);
+                    }
+                });
+
                 btnPlayPause.setVisibility(View.VISIBLE);
                 seekBar.setVisibility(View.VISIBLE);
 

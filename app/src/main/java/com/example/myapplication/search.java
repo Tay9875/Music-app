@@ -1,19 +1,17 @@
 package com.example.myapplication;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RoundRectShape;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.Gravity;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,6 +37,11 @@ public class search extends AppCompatActivity {
     private String currentUrl;
     private boolean isPlaying = false;
     private TextInputEditText searchEditText;
+    private ImageButton btnPlayPause;
+    private ImageButton hide;
+    private SeekBar seekBar;
+    private Handler handler;
+    private Runnable runnable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +52,6 @@ public class search extends AppCompatActivity {
         Intent old_intent = getIntent();
         String getName = old_intent.getStringExtra("name");
         String getId = old_intent.getStringExtra("id");
-        //Toast.makeText(search.this, getId, Toast.LENGTH_SHORT).show();
 
         container = findViewById(R.id.songResearch);
         db = FirebaseFirestore.getInstance();
@@ -59,7 +61,7 @@ public class search extends AppCompatActivity {
         player = new ExoPlayer.Builder(this).build();
 
         // Récupérer les documents de la collection "music"
-        Button searchButton = findViewById(R.id.button4);
+        Button searchButton = findViewById(R.id.searchSong);
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,6 +73,64 @@ public class search extends AppCompatActivity {
                 }
             }
         });
+
+        // Initialiser le bouton play/pause
+        hide = findViewById(R.id.hideLayout2);
+        btnPlayPause = findViewById(R.id.btn_play_pause);
+        btnPlayPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (isPlaying) {
+                    // Mettre en pause la musique
+                    player.pause();
+                    isPlaying = false;
+                    btnPlayPause.setImageResource(R.drawable.iconplay); // Changer l'icône en play
+                } else {
+                    // Lire la musique
+                    if (currentUrl != null) {
+                        player.play();
+                        isPlaying = true;
+                        btnPlayPause.setImageResource(R.drawable.iconpause); // Changer l'icône en pause
+                    }
+                }
+            }
+        });
+
+        // Initialise la SeekBar
+        seekBar = findViewById(R.id.seekBar);
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                if (fromUser) {
+                    long seekPosition = (long) (progress / 100.0 * player.getDuration());
+                    player.seekTo(seekPosition);
+                }
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {}
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {}
+        });
+
+        // Mettre à jour la SeekBar en fonction de la progression de la musique
+        handler = new Handler();
+        runnable = new Runnable() {
+            @Override
+            public void run() {
+                if (isPlaying && player != null) {
+                    long currentPosition = player.getCurrentPosition();
+                    long duration = player.getDuration();
+                    if (duration > 0) {
+                        int progress = (int) ((currentPosition / (float) duration) * 100);
+                        seekBar.setProgress(progress);
+                    }
+                }
+                handler.postDelayed(this, 1000);
+            }
+        };
+        handler.postDelayed(runnable, 1000);
 
         // Initialize and assign variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
@@ -148,11 +208,38 @@ public class search extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(search.this, "Card clicked: " + musique, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(search.this, "Card clicked: " + musique, Toast.LENGTH_SHORT).show();
+                LinearLayout mainController = findViewById(R.id.songController);
+
+                TextView infoView = mainController.findViewById(R.id.songTitle);
+                infoView.setText(musique+" - "+artiste);
+
+                LinearLayout controller = findViewById(R.id.mini_controller);
+
+                mainController.setVisibility(View.VISIBLE);
+                controller.setVisibility(View.VISIBLE);
+                infoView.setVisibility(View.VISIBLE);
+                btnPlayPause.setVisibility(View.VISIBLE);
+                seekBar.setVisibility(View.VISIBLE);
+                hide.setVisibility(View.VISIBLE);
+
+                hide.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mainController.setVisibility(View.INVISIBLE);
+                        controller.setVisibility(View.INVISIBLE);
+                        infoView.setVisibility(View.INVISIBLE);
+                        hide.setVisibility(View.INVISIBLE);
+                        btnPlayPause.setVisibility(View.INVISIBLE);
+                        seekBar.setVisibility(View.INVISIBLE);
+                    }
+                });
+
                 if (isPlaying && currentUrl != null && currentUrl.equals(url)) {
                     // Si la musique est en cours de lecture, la mettre en pause
                     player.pause();
                     isPlaying = false;
+                    btnPlayPause.setImageResource(R.drawable.iconplay);
                 } else {
                     // Sinon, lire la musique
                     currentUrl = url;
@@ -169,6 +256,7 @@ public class search extends AppCompatActivity {
                     player.prepare();
                     player.play();
                     isPlaying = true;
+                    btnPlayPause.setImageResource(R.drawable.iconpause);
                 }
             }
         });
@@ -184,5 +272,6 @@ public class search extends AppCompatActivity {
             player.release();
             player = null;
         }
+        handler.removeCallbacks(runnable);
     }
 }
